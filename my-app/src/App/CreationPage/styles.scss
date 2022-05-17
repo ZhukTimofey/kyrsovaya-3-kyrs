@@ -1,0 +1,36 @@
+.form-wrapper {
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.1);
+  padding:24px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  max-width:30%;
+  margin:24px auto;
+}
+.form-header {
+  text-align: center;
+}
+.drop-zone-border {
+  text-align: center;
+  border:1px black dashed;
+  padding:40px 24px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+.buy-form {
+  display: flex;
+  flex-direction: column;
+}
+.close-cross {
+  width:24px;
+  height:24px;
+  position: absolute;
+  top:10%;
+  right: 5%;
+}
+.creation-image-wrapper {
+  position: relative;
+}
+.creation-image {
+  max-width: 100%;
+}
